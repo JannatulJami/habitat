@@ -2,5 +2,8 @@ body{
   background-color: #d1ffbd;
   padding: 20px;
   margin: 20px;
-  alignment: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
