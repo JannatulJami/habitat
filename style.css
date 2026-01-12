@@ -16,3 +16,51 @@ header{
   left: 0;
   z-index: 100;
 }
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  color: #0a6847;
+}
+
+.home-content > div {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-content > div:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.12);
+}
+.home-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 4rem;
+}
+
+nav a:hover {
+  color: #0a6847;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #2f4f3f;
+  transition: color 0.3s ease;
+}
+
+header {
+  background-color: #B6D9C7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+header img {
+  height: 55px;
+}
