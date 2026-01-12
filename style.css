@@ -75,5 +75,18 @@ body {
   padding: 0;
   color: #2f4f3f;
 }
+footer {
+  background-color: #B6D9C7;
+  text-align: center;
+  padding: 2.5rem;
+  font-size: 0.8rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #2f4f3f;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
 
 
