@@ -64,3 +64,11 @@ header {
 header img {
   height: 55px;
 }
+
+body {
+  background: linear-gradient(180deg, #e9f9ee, #d1ffbd);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2f4f3f;
+}
